@@ -4,7 +4,7 @@
             "path": "/texts/course/config.yml",
             "status": {
                 "total": 136,
-                "correct": 71.02438943894389
+                "correct": 100.39938943894389
             }
         },
         {
@@ -39,7 +39,7 @@
             "path": "/texts/course/2. Calculus/1. Derivatives/config.yml",
             "status": {
                 "total": 48,
-                "correct": 5
+                "correct": 34.375
             }
         },
         {
@@ -53,7 +53,7 @@
             "path": "/texts/course/2. Calculus/config.yml",
             "status": {
                 "total": 73,
-                "correct": 10
+                "correct": 39.375
             }
         },
         {
@@ -7672,9 +7672,250 @@
         {
             "path": "/texts/course/2. Calculus/1. Derivatives/9. Derivatives Practice/config.yml",
             "status": {
-                "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 29.375,
+                "total": 30,
+                "testStatus": [
+                    {
+                        "name": "root -> 1D -> d1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 1D -> dd1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 1D -> d1_approx",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 1D -> dd1_approx",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 1D -> d2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 1D -> dd2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 1D -> d2_approx",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 1D -> dd2_approx",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 1D -> d3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 1D -> dd3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 1D -> d3_approx",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 1D -> dd3_approx",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 1D -> d4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 1D -> dd4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 1D -> d4_approx",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 1D -> dd4_approx",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 1D -> d5",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 1D -> dd5",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 1D -> d5_approx",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 1D -> dd5_approx",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 1D -> d6",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 1D -> dd6",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 210554587623.00488"
+                    },
+                    {
+                        "name": "root -> 1D -> d6_approx",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 1D -> dd6_approx",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_1 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_1 -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_1_approx -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_1_approx -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_2 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_2 -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_2_approx -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_2_approx -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_3 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_3 -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_3_approx -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_3_approx -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_4 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_4 -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_4_approx -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_4_approx -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_5 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_5 -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_5_approx -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_5_approx -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_6 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_6 -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_6_approx -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2D -> grad_6_approx -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    }
+                ]
             }
         },
         {
