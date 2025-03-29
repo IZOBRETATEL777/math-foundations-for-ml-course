@@ -4,7 +4,7 @@
             "path": "/texts/course/config.yml",
             "status": {
                 "total": 136,
-                "correct": 59.629999999999995
+                "correct": 62.129999999999995
             }
         },
         {
@@ -60,7 +60,7 @@
             "path": "/texts/course/3. Probability and Statistics/config.yml",
             "status": {
                 "total": 13,
-                "correct": 0
+                "correct": 2.5
             }
         }
     ],
@@ -7964,16 +7964,38 @@
             "path": "/texts/course/3. Probability and Statistics/1. Linearity of Expectance/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 0.5,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    6,
+                    3,
+                    4,
+                    5,
+                    7
+                ]
             }
         },
         {
             "path": "/texts/course/3. Probability and Statistics/2. Variance of Sum/config.yml",
             "status": {
-                "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "total": 2,
+                "correct": 2,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                ]
             }
         },
         {
